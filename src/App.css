@@ -12,6 +12,13 @@
     padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently */
+
 }
 
 ::-webkit-scrollbar {
@@ -82,11 +89,12 @@ main {
 }
 
 .car-list{
-    margin-top: 40px;
+    margin-top: 60px;
     display: flex;
     flex-wrap: wrap;  flex: 25%;
     padding: 20px;
-    
+    margin-right: 10px;
+    margin-left: 10px;    
 }
 .car-list h6 h2{
     max-width: fit-content;
@@ -96,12 +104,25 @@ main {
     padding: 20px;
     max-width: 260px;
     border: rgb(0, 0, 0) solid 2px;
-    margin: 10px;
-    border-radius: 12px;
+    -webkit-box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.54);
+    -moz-box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.54);
+    box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.54);
+    margin: 15px;
+    border-radius: 8px;
+    transition: all 0.4s ease-in-out;
 }
-
+.car:hover{
+    transform: scale(1.025);
+    -webkit-box-shadow: 4px 5px 5px 0px var(--blue);
+    -moz-box-shadow: 4px 5px 5px 0px var(--blue);
+    box-shadow: 4px 5px 5px 0px var(--blue);
+}
 .car img{
-    width: 200px;
+    min-width: 200px;
+    max-width: 235px;
+    min-height: 150px;
+    max-height: 150px;
+    margin-left: -10px;
 }
 
 button {

@@ -12,15 +12,37 @@
         "lisätiedot": "Tässä autossa on nahkaverhoilu ja navigaattori."
       },
       {
-        "nimi": "Mercedes benz c",
-        "merkki": "Mercedes benz",
+        "nimi": "Mercedes Benz c",
+        "merkki": "Mercedes Benz",
         "vuosimalli": 2023,
         "korimalli": "Farmari",
         "hinta": 69346,
         "vaihteisto": "Automaattivaihteisto",
-        "mittarilukema": 0,
+        "mittarilukema": 20,
         "kuva": "../src/assets/json/cars/gray-mercedes-benz-c-2023.png",
         "lisätiedot": "Hybridi/ bensa"
+      },
+      {
+        "nimi": "Tesla Model Y",
+        "merkki": "Tesla",
+        "vuosimalli": 2023,
+        "korimalli": "Maastoauto SUV",
+        "hinta": 50890,
+        "vaihteisto": "Automaattivaihteisto",
+        "mittarilukema": 0,
+        "kuva": "../src/assets/json/cars/tesla-model-y-2023.png",
+        "lisätiedot": "Sähköauto"
+      },
+      {
+        "nimi": "Tesla Model X",
+        "merkki": "Tesla",
+        "vuosimalli": 2023,
+        "korimalli": "Maastoauto SUV",
+        "hinta": 55890,
+        "vaihteisto": "Automaattivaihteisto",
+        "mittarilukema": 0,
+        "kuva": "../src/assets/json/cars/tesla-model-x-2023.png",
+        "lisätiedot": "Sähköauto"
       }
     ]
   }
