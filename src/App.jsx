@@ -1,11 +1,12 @@
 import React from 'react';
-
 import Logo from './assets/img/logo.png'
 import './App.css'
 import autot from './assets/json/cars.json'
+import './contact'
+
+
 
 function App() {
-
   return (
     <>
 
@@ -16,8 +17,6 @@ function App() {
         <a href="">Yhteystiedot</a>
         <a href="">Autot</a>
         </div>
-
-
       </header>
 
       <main>
