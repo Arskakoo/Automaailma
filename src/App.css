@@ -104,18 +104,18 @@ main {
     padding: 20px;
     max-width: 260px;
     border: rgb(0, 0, 0) solid 2px;
-    -webkit-box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.54);
-    -moz-box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.54);
-    box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 4px 5px 0px 0px rgba(0,0,0);
+    -moz-box-shadow: 4px 5px 0px 0px rgba(0,0,0);
+    box-shadow: 4px 5px 0px 0px rgba(0,0,0);
     margin: 15px;
     border-radius: 8px;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 .car:hover{
     transform: scale(1.025);
-    -webkit-box-shadow: 4px 5px 5px 0px var(--blue);
-    -moz-box-shadow: 4px 5px 5px 0px var(--blue);
-    box-shadow: 4px 5px 5px 0px var(--blue);
+    -webkit-box-shadow: 4px 5px 0px 0px var(--blue);
+    -moz-box-shadow: 4px 0px 5px 0px var(--blue);
+    box-shadow: 4px 5px 0px 0px var(--blue);
 }
 .car img{
     min-width: 200px;
@@ -126,19 +126,22 @@ main {
 }
 
 button {
-    background-color: var(--blue);
+    background-color: var(--bgc);
     outline: none;
-    border: var(--blue) solid 2px;
+    border: black solid 2px;
     padding: 4px 12px;
-    color: white;
+    color: rgb(0, 0, 0);
     letter-spacing: 0.5px;
     border-radius: 6px;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }
 button:hover{
     cursor: pointer;
-    background-color: #6664cca9;
-    border: #6664cc00 solid 2px;
+    background-color: var(--bgc);
+    -webkit-box-shadow: 2px 2px 0px 0px rgba(0,0,0);
+    -moz-box-shadow: 2px 2px 0px 0px rgba(0,0,0);
+    box-shadow: 2px 2px 0px 0px rgba(0,0,0);
+
 }
 .showCarStats{
     margin-left: 32%;

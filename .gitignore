@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Älä poista tätä, äläkä tiedostoa. PLs
+.modify_asset_paths.js

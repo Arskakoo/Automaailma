@@ -44,12 +44,13 @@ function Cars() {
           <div class="car" key={index}>
             <img src={car.kuva}/>
             <h2>{car.nimi}</h2>
+            <hr />
             <h6>Vuosimalli: {car.vuosimalli}</h6>
             {/* <h6>{car.merkki}</h6> */}
             {/* <h6>{car.korimalli}</h6> */}
             <h6>Hinta:  {car.hinta} €</h6>
             <h6>{car.vaihteisto}</h6>
-            <h6>{car.mittarilukema} km</h6>
+            <h6>Mittarilukema: {car.mittarilukema} km </h6>
             {/* <h6>{car.lisätiedot}</h6> */}
           <br />
           <button class='showCarStats'>Tutustu</button>

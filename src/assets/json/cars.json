@@ -8,7 +8,7 @@
         "hinta": 26000,
         "vaihteisto": "Automaattivaihteisto",
         "mittarilukema": 200,
-        "kuva": "../src/assets/json/cars/gray-toyota-corolla-2023.png",
+        "kuva": "../src/assets/img/cars/gray-toyota-corolla-2023.png",
         "lisätiedot": "Tässä autossa on nahkaverhoilu ja navigaattori."
       },
       {
@@ -19,7 +19,7 @@
         "hinta": 69346,
         "vaihteisto": "Automaattivaihteisto",
         "mittarilukema": 20,
-        "kuva": "../src/assets/json/cars/gray-mercedes-benz-c-2023.png",
+        "kuva": "../src/assets/img/cars/gray-mercedes-benz-c-2023.png",
         "lisätiedot": "Hybridi/ bensa"
       },
       {
@@ -30,7 +30,7 @@
         "hinta": 50890,
         "vaihteisto": "Automaattivaihteisto",
         "mittarilukema": 0,
-        "kuva": "../src/assets/json/cars/tesla-model-y-2023.png",
+        "kuva": "../src/assets/img/cars/tesla-model-y-2023.png",
         "lisätiedot": "Sähköauto"
       },
       {
@@ -41,7 +41,7 @@
         "hinta": 55890,
         "vaihteisto": "Automaattivaihteisto",
         "mittarilukema": 0,
-        "kuva": "../src/assets/json/cars/tesla-model-x-2023.png",
+        "kuva": "../src/assets/img/cars/tesla-model-x-2023.png",
         "lisätiedot": "Sähköauto"
       }
     ]
