@@ -1,0 +1,26 @@
+{
+    "cars": [
+      {
+        "nimi": "Toyota Corolla",
+        "merkki": "Toyota",
+        "vuosimalli": 2023,
+        "korimalli": "Porrasperä",
+        "hinta": 26000,
+        "vaihteisto": "Automaattivaihteisto",
+        "mittarilukema": 200,
+        "kuva": "../src/assets/json/cars/gray-toyota-corolla-2023.png",
+        "lisätiedot": "Tässä autossa on nahkaverhoilu ja navigaattori."
+      },
+      {
+        "nimi": "Mercedes benz c",
+        "merkki": "Mercedes benz",
+        "vuosimalli": 2023,
+        "korimalli": "Farmari",
+        "hinta": 69346,
+        "vaihteisto": "Automaattivaihteisto",
+        "mittarilukema": 0,
+        "kuva": "../src/assets/json/cars/gray-mercedes-benz-c-2023.png",
+        "lisätiedot": "Hybridi/ bensa"
+      }
+    ]
+  }
