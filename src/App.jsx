@@ -28,7 +28,7 @@ function App() {
       </main>
 
       <footer>
-
+        <p>@Automaailma 2023</p>
       </footer>
 
     </>

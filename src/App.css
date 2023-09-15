@@ -170,6 +170,11 @@ button:hover{
 
 
 footer {
+    text-align: center;
+    font-weight: 500;
+}
+footer p {
+    color: rgb(204, 204, 204);
 }
 
 
