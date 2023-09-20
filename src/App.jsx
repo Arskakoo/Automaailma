@@ -14,15 +14,15 @@ function App() {
         <img src={Logo} class="logo react" alt="React logo" />
 
         <div class='navLinks'>
-        <a href="">Yhteystiedot</a>
-        <a href="">Autot</a>
+          <a href="">Yhteystiedot</a>
+          <a href="">Autot</a>
         </div>
       </header>
 
       <main>
 
 
-      <Cars />
+        <Cars />
 
       </main>
 
@@ -37,28 +37,31 @@ function App() {
 
 function Cars() {
   return (
-   
-      <div class="car-list">
-        {autot.cars.map((car, index) => (
-          <div class="car" key={index}>
-            <img src={car.kuva}/>
-            <h2>{car.nimi}</h2>
-            <hr />
-            <h6>Vuosimalli: {car.vuosimalli}</h6>
-            {/* <h6>{car.merkki}</h6> */}
-            {/* <h6>{car.korimalli}</h6> */}
-            <h6>Hinta:  {car.hinta} €</h6>
-            <h6>{car.vaihteisto}</h6>
-            <h6>Mittarilukema: {car.mittarilukema} km </h6>
-            {/* <h6>{car.lisätiedot}</h6> */}
+
+    <div class="car-list">
+      {autot.cars.map((car, index) => (
+        <div class="car" key={index}>
+          <img src={car.kuva} />
+          <h2>{car.nimi}</h2>
+          <hr />
+          <h6>Vuosimalli: {car.vuosimalli}</h6>
+          {/* <h6>{car.merkki}</h6> */}
+          {/* <h6>{car.korimalli}</h6> */}
+          <h6>Hinta:  {car.hinta} €</h6>
+          <h6>{car.vaihteisto}</h6>
+          <h6>Mittarilukema: {car.mittarilukema} km </h6>
+          {/* <h6>{car.lisätiedot}</h6> */}
           <br />
-          <button class='showCarStats'>Tutustu</button>
-          </div>
-        ))}
-      </div>
+          <button class='showCarStats' onClick="showCarStats">Tutustu</button>
+        </div>
+      ))}
+    </div>
   );
 }
 
+function showCarStats() {
+
+}
 
 
 export default App

@@ -1,48 +1,70 @@
 {
-    "cars": [
-      {
-        "nimi": "Toyota Corolla",
-        "merkki": "Toyota",
-        "vuosimalli": 2023,
-        "korimalli": "Porrasperä",
-        "hinta": 26000,
-        "vaihteisto": "Automaattivaihteisto",
-        "mittarilukema": 200,
-        "kuva": "../src/assets/img/cars/gray-toyota-corolla-2023.png",
-        "lisätiedot": "Tässä autossa on nahkaverhoilu ja navigaattori."
-      },
-      {
-        "nimi": "Mercedes Benz c",
-        "merkki": "Mercedes Benz",
-        "vuosimalli": 2023,
-        "korimalli": "Farmari",
-        "hinta": 69346,
-        "vaihteisto": "Automaattivaihteisto",
-        "mittarilukema": 20,
-        "kuva": "../src/assets/img/cars/gray-mercedes-benz-c-2023.png",
-        "lisätiedot": "Hybridi/ bensa"
-      },
-      {
-        "nimi": "Tesla Model Y",
-        "merkki": "Tesla",
-        "vuosimalli": 2023,
-        "korimalli": "Maastoauto SUV",
-        "hinta": 50890,
-        "vaihteisto": "Automaattivaihteisto",
-        "mittarilukema": 0,
-        "kuva": "../src/assets/img/cars/tesla-model-y-2023.png",
-        "lisätiedot": "Sähköauto"
-      },
-      {
-        "nimi": "Tesla Model X",
-        "merkki": "Tesla",
-        "vuosimalli": 2023,
-        "korimalli": "Maastoauto SUV",
-        "hinta": 55890,
-        "vaihteisto": "Automaattivaihteisto",
-        "mittarilukema": 0,
-        "kuva": "../src/assets/img/cars/tesla-model-x-2023.png",
-        "lisätiedot": "Sähköauto"
-      }
-    ]
-  }
+  "cars": [
+    {
+      "nimi": "Toyota Corolla",
+      "merkki": "Toyota",
+      "vuosimalli": 2023,
+      "korimalli": "Porrasperä",
+      "hinta": 26000,
+      "vaihteisto": "Automaattivaihteisto",
+      "mittarilukema": 200,
+      "kuva": "../src/assets/img/cars/gray-toyota-corolla-2023.png",
+      "lisätiedot": "Hybridi/ bensa"
+    },
+    {
+      "nimi": "Mercedes Benz c",
+      "merkki": "Mercedes Benz",
+      "vuosimalli": 2023,
+      "korimalli": "Farmari",
+      "hinta": 69346,
+      "vaihteisto": "Automaattivaihteisto",
+      "mittarilukema": 20,
+      "kuva": "../src/assets/img/cars/gray-mercedes-benz-c-2023.png",
+      "lisätiedot": "Hybridi/ bensa"
+    },
+    {
+      "nimi": "Tesla Model Y",
+      "merkki": "Tesla",
+      "vuosimalli": 2023,
+      "korimalli": "Maastoauto SUV",
+      "hinta": 50890,
+      "vaihteisto": "Automaattivaihteisto",
+      "mittarilukema": 0,
+      "kuva": "../src/assets/img/cars/tesla-model-y-2023.png",
+      "lisätiedot": "Sähköauto"
+    },
+    {
+      "nimi": "Tesla Model X",
+      "merkki": "Tesla",
+      "vuosimalli": 2023,
+      "korimalli": "Maastoauto SUV",
+      "hinta": 55890,
+      "vaihteisto": "Automaattivaihteisto",
+      "mittarilukema": 0,
+      "kuva": "../src/assets/img/cars/tesla-model-x-2023.png",
+      "lisätiedot": "Sähköauto"
+    },
+    {
+      "nimi": "Ford focus",
+      "merkki": "Ford",
+      "vuosimalli": 2023,
+      "korimalli": "Farmari",
+      "hinta": 24890,
+      "vaihteisto": "Automaattivaihteisto",
+      "mittarilukema": "10 000",
+      "kuva": "../src/assets/img/cars/ford-focus-2023.png",
+      "lisätiedot": "Bensa"
+    },
+    {
+      "nimi": "Hyundai coupe",
+      "merkki": "Hyundai",
+      "vuosimalli": 2002,
+      "korimalli": "Porrasperä",
+      "hinta": 5890,
+      "vaihteisto": "Manuaalivaihteisto",
+      "mittarilukema": 0,
+      "kuva": "../src/assets/img/cars/hyundai-coupe-2002.png",
+      "lisätiedot": "Bensa"
+    }
+  ]
+}
